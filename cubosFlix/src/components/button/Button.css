@@ -1,0 +1,17 @@
+.butao-area {
+   display: inline;
+    margin: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    
+}
+
+.butao {
+  padding: 5px; 
+  display: inline;
+  background-color: #ffffff;
+  border: solid 2px var(--primary-color);
+  border-radius: 15px;
+  color: var(--primary-color);
+}

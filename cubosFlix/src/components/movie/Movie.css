@@ -1,0 +1,78 @@
+.content {    
+    padding: 30px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    background-color: rgb(235, 235, 235);
+}
+
+.title-bar {
+    background-color: var(--primary-color);
+    margin-left: 60px;
+    width: 940px;
+    height: 70px;
+    text-align: justify;
+    color: var(--secondary-color);
+    
+}
+
+.title-bar p {
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    color: var(--secondary-color);
+    padding-top: 20px;
+    margin: 0px 5px 2px 130px;
+}
+
+.score-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    border: solid 2px var(--primary-color);
+    margin: -50px 20px;   
+    text-align: center;
+}
+
+.score-circle2 {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin: 5px;
+    margin-top: 5px;
+    
+}
+
+.popularity {
+    padding: 20px 5px 20px 5px;
+    margin-left: -2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.realese {
+    color: rgb(128, 125, 125);
+    text-align: left;
+    font-size: 18px;
+    margin-left: 170px;
+    margin-top: -12px;
+    font-family: 'Lato', sans-serif;
+}
+
+.synopsis {
+    text-align: left;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    margin: 30px 90px;
+    color: rgb(110, 110, 110);
+    font-weight: bolder;
+    word-wrap: break-word;
+}

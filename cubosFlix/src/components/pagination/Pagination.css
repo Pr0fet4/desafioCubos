@@ -1,0 +1,53 @@
+.container {
+    margin: 20px 350px;
+}
+
+.pagination {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+.pages a{
+    color: var(--primary-color);
+}
+
+.pages a{
+    text-decoration: none;
+}
+
+.pages {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    display: inline-flex;
+    
+}
+
+.pages a{
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.active {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    border: solid 2px var(--primary-color);
+}
+
+.active2 a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 22px;
+}
+
+.page-list {
+    display: inline;
+}
+
